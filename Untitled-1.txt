@@ -1,0 +1,20 @@
+O que é Git Flow?
+O Git Flow é um modelo, uma estratégia ou, ainda, um fluxo de trabalho muito utilizado por equipes de desenvolvimento de software. 
+Ele se destaca por auxiliar na organização do versionamento de códigos.
+Quando utilizar o Git Flow?
+O Git Flow é recomendado para projetos que utilizam versionamento semântico (semantic versioning) ou que precisam oferecer suporte a várias versões de seu software.
+
+Segundo o próprio autor, Vincent Driessen, se o projeto exige entrega contínua, como normalmente ocorre em projetos, este modelo não é recomendado para esse tipo de cenário. 
+Porque geralmente com o Git Flow são geradas branches de longa duração e branches de longa duração atrapalham a entrega contínua.
+
+A utilização do Git Flow também se torna recomendado para projetos que existam uma grande quantidade de pessoas “commitando” dentro de um repositório, ou para projetos que possuem um
+ ciclo de entrega agendada.
+
+Como funciona o Git Flow?
+O Git Flow trabalha com duas branches principais, a Develop e a Master, que duram para sempre; e três branches de suporte, Feature, Release e Hotfix, que são temporários e duram 
+até realizar o merge com as branches principais.
+
+Então, ao invés de uma única branch Master, esse fluxo de trabalho utiliza duas branches principais para registrar o histórico do projeto.
+ A branch Master armazena o histórico do lançamento oficial, e a branch Develop serve como uma ramificação de integração para recursos.
+
+É ideal que todos os commits na branch Master sejam marcados com um número de versão.
